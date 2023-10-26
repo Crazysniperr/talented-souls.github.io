@@ -1253,7 +1253,7 @@
 
                     <div class="swiper project-swiper">
                         <div class="swiper-wrapper">
-                          <div class="swiper-slide">
+                          <div class="swiper-slide width">
                             <div class="project-box">
                                 <div class="image">
                                     <a href="nft.html">
@@ -2005,7 +2005,11 @@
     <script src="app/js/aos.js"></script>
 
 
-      <script src="app/js/swiper-bundle.min.js"></script>
+      <script src="app/js/swiper-bundle.min.js">
+        $(".swiper-slide").css({
+            "width": "300px"
+        });
+      </script>
       <script src="app/js/swiper.js"></script>
 
     <!-- Initialize Swiper -->

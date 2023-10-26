@@ -2746,6 +2746,11 @@ img.mfp-img {
     margin: 80px auto 0;
   }
 }
+
+.swiper-slide .width{
+  width: 300px;
+}
+
 @media only screen and (max-width: 767px) {
   .about.s3 .card-box:first-child {
     width: 100%;
