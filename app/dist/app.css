@@ -3021,6 +3021,13 @@ img.mfp-img {
   align-items: center;
   justify-content: center;
 }
+.swiper-button-prev svg{
+  margin-right: 5px;
+
+}
+.swiper-button-next svg{
+  margin-left: 5px;
+}
 .project-swiper .swiper-button-next::after, .project-swiper .swiper-button-prev::after, .project-swiper-3 .swiper-button-next::after, .project-swiper-3 .swiper-button-prev::after {
   display: none;
 }
@@ -3033,11 +3040,15 @@ img.mfp-img {
   }
 }
 .project-swiper .swiper-button-next, .project-swiper-3 .swiper-button-next {
+  height: 35px;
+  width: 35px;
   right: 36%;
 }
 .project-swiper .swiper-button-prev, .project-swiper-3 .swiper-button-prev {
+  width: 35px;
   left: 36%;
   background: #703FFE;
+  height: 35px;
 }
 
 .banner.s2 .swiper-button-next, .banner.s2 .swiper-button-prev, .banner.s3 .swiper-button-next, .banner.s3 .swiper-button-prev, .banner.s4 .swiper-button-next, .banner.s4 .swiper-button-prev {
@@ -3094,7 +3105,9 @@ img.mfp-img {
   background: linear-gradient(89.96deg, rgba(255, 255, 255, 0.05) 0.03%, rgba(255, 255, 255, 0.008) 49.67%, rgba(255, 255, 255, 0.05) 99.96%);
   backdrop-filter: blur(4px);
   border-radius: 26px;
-  padding: 20px;
+  padding: 12px;
+  width: 200px;
+  height: 255px;
   position: relative;
   border: 1px solid rgba(255, 255, 255, 0.1);
   margin-bottom: 110px;
